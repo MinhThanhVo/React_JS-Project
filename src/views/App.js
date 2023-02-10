@@ -1,6 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.scss";
+import MyComponents from "./Example/MyComponents";
+/**
+ * 2 components: class component / func components(func / arrow)
+ * JSX
+ */
 function App() {
   return (
     <div className="App">
@@ -17,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <MyComponents />
       </header>
     </div>
   );
